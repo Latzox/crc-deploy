@@ -52,7 +52,7 @@ resource fa 'Microsoft.Web/sites@2023-12-01' = {
           value: 'python'
         }
         {
-          name: 'COSMOS_TABLEAPI_CONNECTION_STRING'
+          name: 'AZURE_TABLES_CONNECTION_STRING'
           value: COSMOS_TABLEAPI_CONNECTION_STRING
         }
       ]
