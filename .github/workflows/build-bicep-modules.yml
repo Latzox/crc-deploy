@@ -40,4 +40,4 @@ jobs:
         echo "Validating Deployment"
         az bicep build --file ./main.bicep
         echo "Testing main.bicep with parameters"
-        az deployment group validate --resource-group rg-bicepbuild-dev-001 --template-file $dir/main.bicep --parameters resName=crc-dev-005 repoToken=test
+        az deployment group validate --resource-group rg-bicepbuild-dev-001 --template-file ./main.bicep --parameters resName=crc-dev-005 repoToken=test
