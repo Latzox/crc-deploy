@@ -56,6 +56,11 @@ resource fa 'Microsoft.Web/sites@2023-12-01' = {
           value: COSMOS_TABLEAPI_CONNECTION_STRING
         }
       ]
+      cors: {
+        allowedOrigins: [
+          '*'
+        ]
+      }
     }
     httpsOnly: true
   }
