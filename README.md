@@ -1,3 +1,5 @@
+[![Build Bicep Modules](https://github.com/Latzox/crc-deploy/actions/workflows/build-bicep-modules.yml/badge.svg)](https://github.com/Latzox/crc-deploy/actions/workflows/build-bicep-modules.yml)
+
 # Cloud Resume Challenge - Deployment
 
 This repository contains the infrastructure as code (IaC) for deploying the Cloud Resume Challenge components using Azure Bicep.
@@ -7,8 +9,9 @@ This repository contains the infrastructure as code (IaC) for deploying the Clou
 The Cloud Resume Challenge is a hands-on project to demonstrate your skills in cloud computing. For more details, visit the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/).
 
 This project is divided into three repositories:
-- [crc-backend](https://github.com/latzox/crc-backend): Contains the backend code.
 - [crc-frontend](https://github.com/latzox/crc-frontend): Contains the frontend code.
+- [crc-backend](https://github.com/latzox/crc-backend): Contains the backend code.
+- [crc-deploy](https://github.com/latzox/crc-deploy): Contains the infrastructure as code.
 
 ## Structure
 
